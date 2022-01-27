@@ -22,8 +22,8 @@ jobs:
         java-version: '17'
         distribution: 'adopt'
         
-    - name: Build with Gradle
+    - name: Build code
       run: ./gradlew build
   
-    - name: Build the Docker image
+    - name: Build image
       run: docker build . --file Dockerfile --tag wschcom:main-service
