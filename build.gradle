@@ -45,3 +45,11 @@ tasks.named('test') {
 jar {
 	enabled = false
 }
+
+bootJar {
+	archiveFileName = 'main-service.jar'
+}
+
+springBoot {
+	mainClass = 'br.com.drebitocrebito.mainservice.Application'
+}
