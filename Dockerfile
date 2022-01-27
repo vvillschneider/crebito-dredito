@@ -4,4 +4,3 @@ WORKDIR $BASE_DIRECTORY
 COPY /build/libs/main-service.jar $BASE_DIRECTORY
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","main-service.jar"]
-
