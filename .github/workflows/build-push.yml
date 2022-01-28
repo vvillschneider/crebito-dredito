@@ -28,16 +28,13 @@ jobs:
       name: Build code
       run: ./gradlew build
   
-#     - name: Build image
-#       run: docker build . --file Dockerfile --tag wschcom:main-service
-
       
     -
       name: Login to DockerHub
       uses: docker/login-action@v1
       with:
-        username: ${{ secrets.DOCKERHUB_USERNAME }}
-        password: ${{ secrets.DOCKERHUB_TOKEN }}
+        username: ${{secrets.DOCKERHUB_USERNAME}}
+        password: ${{secrets.DOCKERHUB_TOKEN}}
     
     - 
       name: Build and push
