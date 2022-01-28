@@ -27,7 +27,6 @@ jobs:
     - 
       name: Build code
       run: ./gradlew build
-  
       
     -
       name: Login to DockerHub
