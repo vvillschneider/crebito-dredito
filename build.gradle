@@ -47,9 +47,9 @@ jar {
 }
 
 bootJar {
-	archiveFileName = 'main-service.jar'
+	archiveFileName = 'crebito-dredito.jar'
 }
 
 springBoot {
-	mainClass = 'br.com.drebitocrebito.mainservice.Application'
+	mainClass = 'br.com.crebitodredito.Application'
 }
