@@ -4,7 +4,7 @@ plugins {
 	id 'java'
 }
 
-group = 'br.com.drebitocrebito'
+group = 'br.com.crebito-dredito'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 

@@ -1,4 +1,4 @@
-package br.com.drebitocrebito.mainservice;
+package br.com.crebitodredito;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

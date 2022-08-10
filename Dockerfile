@@ -1,6 +1,6 @@
 FROM openjdk:17-oracle
 ENV BASE_DIRECTORY=app
 WORKDIR $BASE_DIRECTORY
-COPY /build/libs/main-service.jar .
+COPY /build/libs/crebito-dredito.jar .
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","main-service.jar"]
+ENTRYPOINT ["java","-jar","crebito-dredito.jar"]
